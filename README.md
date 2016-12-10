@@ -17,6 +17,8 @@ The demo also allows to toggle V-Sync on/off. Here are the expected effects:
 |   OFF  |   ON   | No tearing but stuttering below monitor's refresh rate
 |   OFF  |   OFF  | Tearing, stuttering below monitor's refresh rate
 
+![Screenshot of gl-gsync-demo](images/screenshot.png)
+
 ## Warning: possible side effects on your system's setup
 
 At runtime, the demo modifies two global parameters of your NVIDIA's settings:
@@ -27,6 +29,8 @@ At runtime, the demo modifies two global parameters of your NVIDIA's settings:
 Those parameters are reset to their initial value when the demo exits normally.
 In case of an abnormal exit (process crashed or get killed), you should check your
 settings to ensure they have the values you want.
+
+![NVIDIA Settings affected by the demo](images/nvidia-params.png)
 
 ## Dependencies
 
@@ -61,4 +65,4 @@ After building, you can run the demo by typing:
 
 ## License
 
-See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
+See the [LICENSE](LICENSE) file for license rights and limitations (MIT).
