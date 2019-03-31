@@ -32,6 +32,10 @@ settings to ensure they have the values you want.
 
 ![NVIDIA Settings affected by the demo](images/nvidia-params.png)
 
+## Installation
+
+The package is available for Arch Linux in the [AUR](https://aur.archlinux.org/packages/gl-gsync-demo/)
+
 ## Dependencies
 
 The demo is written in C99 and uses the legacy OpenGL 1.x API and requires the
