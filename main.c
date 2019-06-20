@@ -306,8 +306,8 @@ void drawHUD()
   printStatus("[V] V-SYNC: ", vsyncIsAvailable(&app.vsyncController), vsyncIsEnabled(&app.vsyncController));
   printStatus("[G] G-SYNC: ", gsyncIsAvailable(&app.gsyncController), gsyncIsAllowed(&app.gsyncController));
   printText("\n");
-  printText("[PGUP] / [PGDOWN] Min frame rate: %i\n", app.frameRateController.frameRateMax);
-  printText("[UP] / [DOWN] Max frame rate: %i\n", app.frameRateController.frameRateMin);
+  printText("[UP] / [DOWN] Max frame rate: %i\n", app.frameRateController.frameRateMax);
+  printText("[PGUP] / [PGDOWN] Min frame rate: %i\n", app.frameRateController.frameRateMin);
   printText("[Q] / [ESC] Quit");
 
   glTranslated(0, 180, 0);
