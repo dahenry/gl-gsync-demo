@@ -1,7 +1,7 @@
 CC = gcc
 LD = $(CC)
 CFLAGS += -Wall -O3 -std=c99
-LDFLAGS += -lXNVCtrl -lX11 -lGL -lGLU -lglut -lGLEW -lm
+LDFLAGS += -lXNVCtrl -lX11 -lXext -lGL -lGLU -lglut -lGLEW -lm
 
 TARGETS = gl-gsync-demo
 
